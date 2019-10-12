@@ -2,11 +2,31 @@ p.justify {
     text-align: justify;
 }
 
-a{
-    color: black;
-    font-weight: bold;
+a,span{
+	color: black;
 }
 
 html{
     font-family: 'Playfair Display', serif;
+}
+
+div.even{
+	display: flex; 
+	justify-content: space-around; 
+	align-items: flex-end;
+	text-align: center;
+	color: black;
+}
+
+
+
+/*Sticky footer*/
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
