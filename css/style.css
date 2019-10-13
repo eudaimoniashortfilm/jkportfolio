@@ -6,6 +6,10 @@ a,span{
 	color: black;
 }
 
+a:hover{
+	font-weight: bold;
+}
+
 html{
     font-family: 'Playfair Display', serif;
 }
